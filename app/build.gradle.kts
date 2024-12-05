@@ -22,6 +22,9 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    // 追加！！！
+    implementation(libs.aws.java.sdk.s3)
 }
 
 testing {
